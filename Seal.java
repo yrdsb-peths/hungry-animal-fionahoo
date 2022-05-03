@@ -16,7 +16,8 @@ public class Seal extends Actor
      */
     public void act()
     {
-        move(-1);
+        move(1);
+        turn(2);
     }
     
     public Seal(String name)
