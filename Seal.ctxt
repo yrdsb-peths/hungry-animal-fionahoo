@@ -4,6 +4,14 @@ comment0.text=\n\ Write\ a\ description\ of\ class\ phoq\ here.\n\ \n\ @author\ 
 comment1.params=
 comment1.target=void\ act()
 comment1.text=\n\ Act\ -\ do\ whatever\ the\ phoq\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+<<<<<<< Updated upstream
 comment2.params=name
 comment2.target=Seal(java.lang.String)
 numComments=3
+=======
+comment2.params=
+comment2.target=void\ endGame()
+comment3.params=name
+comment3.target=Seal(java.lang.String)
+numComments=4
+>>>>>>> Stashed changes
