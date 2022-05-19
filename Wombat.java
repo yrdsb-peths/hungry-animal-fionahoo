@@ -30,5 +30,20 @@ public class Wombat extends Actor
         {
             setLocation(getX(),getY() + 3);
         }
+<<<<<<< Updated upstream
+=======
+        consume();
+    }
+    
+    public void consume()
+    {
+        if(isTouching(Pingo.class))
+        {
+            removeTouching(Pingo.class);
+            MyWorld w = (MyWorld) getWorld();
+            w.increaseScore();
+            w.spawnPingo();
+        }    
+>>>>>>> Stashed changes
     }
 }

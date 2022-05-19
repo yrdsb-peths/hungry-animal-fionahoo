@@ -16,8 +16,24 @@ public class Seal extends Actor
      */
     public void act()
     {
+<<<<<<< Updated upstream
         move(1);
         turn(2);
+=======
+        MyWorld w = (MyWorld) getWorld();
+        
+        if(w.worldPause == false)
+        {
+            move(1);
+            turn(2);
+        }
+        
+        if(isTouching(Wombat.class))
+        {
+            removeTouching(Wombat.class);
+            w.endGame();
+        }
+>>>>>>> Stashed changes
     }
     
     public Seal(String name)

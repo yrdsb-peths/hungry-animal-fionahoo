@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 #BlueJ class context
 comment0.target=Seal
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ phoq\ here.\r\n\ \r\n\ @author\ fionahoo\ \r\n\ @version\ apr\ 29\r\n
@@ -7,3 +8,14 @@ comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ phoq\ wants\ to\ do.\ This\ metho
 comment2.params=name
 comment2.target=Seal(java.lang.String)
 numComments=3
+=======
+#BlueJ class context
+comment0.target=Seal
+comment0.text=\n\ Write\ a\ description\ of\ class\ phoq\ here.\n\ \n\ @author\ fionahoo\ \n\ @version\ apr\ 29\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ phoq\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.params=name
+comment2.target=Seal(java.lang.String)
+numComments=3
+>>>>>>> Stashed changes
