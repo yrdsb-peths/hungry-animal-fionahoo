@@ -20,4 +20,7 @@ comment3.target=void\ spawnPingo()
 comment4.params=
 comment4.target=void\ endGame()
 numComments=5
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

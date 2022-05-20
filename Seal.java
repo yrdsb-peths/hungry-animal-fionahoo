@@ -17,9 +17,12 @@ public class Seal extends Actor
     public void act()
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         move(1);
         turn(2);
 =======
+=======
+>>>>>>> Stashed changes
         MyWorld w = (MyWorld) getWorld();
         
         if(w.worldPause == false)
@@ -33,6 +36,9 @@ public class Seal extends Actor
             removeTouching(Wombat.class);
             w.endGame();
         }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
     

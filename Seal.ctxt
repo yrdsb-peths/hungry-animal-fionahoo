@@ -18,4 +18,7 @@ comment1.text=\n\ Act\ -\ do\ whatever\ the\ phoq\ wants\ to\ do.\ This\ method\
 comment2.params=name
 comment2.target=Seal(java.lang.String)
 numComments=3
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

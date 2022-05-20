@@ -61,4 +61,10 @@ public class MyWorld extends World
         addObject(overL, 300, 200);
         worldPause = true;
     }
+    
+    public void endGame()
+    {
+        addObject(overL, 300, 200);
+        worldPause = true;
+    }
 }

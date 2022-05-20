@@ -15,18 +15,24 @@ public class Pingo extends Actor
     public void act() 
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         setLocation(getX(), getY() + 1);
         if(isTouching(Wombat.class))
         {
             removeTouching(Wombat.class);
         }    
 =======
+=======
+>>>>>>> Stashed changes
         MyWorld w = (MyWorld) getWorld();
         
         if(w.worldPause == false)
         {
             setLocation(getX(), getY() + 1);
         }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 }
