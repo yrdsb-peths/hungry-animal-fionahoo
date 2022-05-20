@@ -30,7 +30,6 @@ public class MyWorld extends World
         Wombat baby = new Wombat();
         addObject(baby, 300, 200);
 
-        
         // Add score label
         addObject(scoreL, 50, 340);
         
