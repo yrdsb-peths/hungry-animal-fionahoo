@@ -30,8 +30,7 @@ public class Wombat extends Actor
         {
             setLocation(getX(),getY() + 3);
         }
-<<<<<<< Updated upstream
-=======
+
         consume();
     }
     
@@ -44,6 +43,6 @@ public class Wombat extends Actor
             w.increaseScore();
             w.spawnPingo();
         }    
->>>>>>> Stashed changes
+
     }
 }

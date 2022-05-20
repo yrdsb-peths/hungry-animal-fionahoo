@@ -29,10 +29,7 @@ public class MyWorld extends World
         addObject(s2, 450, 250);
         Wombat baby = new Wombat();
         addObject(baby, 300, 200);
-<<<<<<< Updated upstream
-        Pingo booo = new Pingo();
-        addObject(booo, 300, 0);
-=======
+
         
         // Add score label
         addObject(scoreL, 50, 340);
@@ -53,7 +50,7 @@ public class MyWorld extends World
         int y = 0;
         Pingo p = new Pingo();
         addObject(p, x, y);
->>>>>>> Stashed changes
+
     }
     
     public void endGame()
@@ -62,9 +59,5 @@ public class MyWorld extends World
         worldPause = true;
     }
     
-    public void endGame()
-    {
-        addObject(overL, 300, 200);
-        worldPause = true;
-    }
+    
 }
