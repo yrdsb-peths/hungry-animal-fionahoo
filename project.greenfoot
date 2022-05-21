@@ -110,6 +110,6 @@ target7.x=0
 target7.y=0
 version=3.0.0
 width=816
-world.lastInstantiated=MyWorld
+world.lastInstantiated=gameStartWorld
 xPosition=624
 yPosition=293
