@@ -16,11 +16,11 @@ public class Wombat extends Actor
     {
         if(Greenfoot.isKeyDown("a"))
         {
-            move(-5);
+            move(-3);
         }
         if(Greenfoot.isKeyDown("d"))
         {
-            move(5);
+            move(3);
         }
         if(Greenfoot.isKeyDown("w"))
         {

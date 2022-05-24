@@ -20,7 +20,10 @@ public class Pingo extends Actor
         if(w.worldPause == false)
         {
             setLocation(getX(), getY() + 1);
+            if(getY() >= 399)
+            {
+                w.endGame();
+            }
         }
-
     }
 }
