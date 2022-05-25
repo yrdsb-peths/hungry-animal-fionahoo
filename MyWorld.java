@@ -34,7 +34,6 @@ public class MyWorld extends World
         setBackground(seaImages[3]);
         animTimer = new SimpleTimer();
         animTimer.mark();
-        animate();
         
         // Add actors to world
         Seal s1 = new Seal("sadge");
@@ -53,11 +52,17 @@ public class MyWorld extends World
         spawnPingo();
     }
     
+    public void act()
+    {
+        animate();
+    }
+    
     int curIndex = 0;
     public void animate()
     {
         if(animTimer.millisElapsed() > 10)
         {
+            setBackground(seaImages[curIndex]);
             curIndex++;
             curIndex %= 152;
             animTimer.mark();

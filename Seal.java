@@ -9,20 +9,20 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Seal extends Actor
 {
     private String name;
-    
+    GreenfootImage seal = getImage();
     /**
-     * Act - do whatever the phoq wants to do. This method is called whenever
+     * Act - do whatever the Seal wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act()
     {
 
         MyWorld w = (MyWorld) getWorld();
-        
+        seal.scale(30, 30);
         if(w.worldPause == false)
         {
             move(1);
-            turn(2);
+            turn(1);
         }
         
         if(isTouching(Wombat.class))
