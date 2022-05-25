@@ -88,6 +88,7 @@ public class MyWorld extends World
     {
         addObject(overL, 300, 200);
         worldPause = true;
+        score = 0;
     }
     
     

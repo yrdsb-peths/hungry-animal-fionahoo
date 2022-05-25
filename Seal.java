@@ -18,7 +18,7 @@ public class Seal extends Actor
     {
 
         MyWorld w = (MyWorld) getWorld();
-        seal.scale(30, 30);
+        seal.scale(100, 100);
         if(w.worldPause == false)
         {
             move(1);

@@ -37,23 +37,27 @@ public class Wombat extends Actor
     
     public void act() 
     {
-        if(Greenfoot.isKeyDown("a"))
+        MyWorld w = (MyWorld) getWorld();
+        if(w.worldPause == false)
         {
-            move(-3);
-            isFacingRight = false;
-        }
-        if(Greenfoot.isKeyDown("d"))
-        {
-            move(3);
-            isFacingRight = true;
-        }
-        if(Greenfoot.isKeyDown("w"))
-        {
-            setLocation(getX(),getY() - 3);
-        }
-        if(Greenfoot.isKeyDown("s"))
-        {
-            setLocation(getX(),getY() + 3);
+            if(Greenfoot.isKeyDown("a"))
+            {
+                move(-3);
+                isFacingRight = false;
+            }
+            if(Greenfoot.isKeyDown("d"))
+            {
+                move(3);
+                isFacingRight = true;
+            }
+            if(Greenfoot.isKeyDown("w"))
+            {
+                setLocation(getX(),getY() - 3);
+            }
+            if(Greenfoot.isKeyDown("s"))
+            {
+                setLocation(getX(),getY() + 3);
+            }
         }
 
         consume();
