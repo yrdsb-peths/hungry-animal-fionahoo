@@ -31,9 +31,10 @@ public class MyWorld extends World
             seaImages[i] = new GreenfootImage("3ce69531311986a8a78f1e093f53df3d-" + i + ".png");
             seaImages[i].scale(600, 400);
         }
-        setBackground(seaImages[152]);
+        setBackground(seaImages[3]);
         animTimer = new SimpleTimer();
         animTimer.mark();
+        animate();
         
         // Add actors to world
         Seal s1 = new Seal("sadge");
@@ -50,6 +51,17 @@ public class MyWorld extends World
         
         // Add falling penguin
         spawnPingo();
+    }
+    
+    int curIndex = 0;
+    public void animate()
+    {
+        if(animTimer.millisElapsed() > 10)
+        {
+            curIndex++;
+            curIndex %= 152;
+            animTimer.mark();
+        }
     }
     
     public void increaseScore()
